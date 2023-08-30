@@ -95,7 +95,7 @@ class VC:
         sid,
         input_audio_path,
         f0_up_key,
-        f0_file,
+        # f0_file,
         f0_method,
         file_index,
         file_index2,
@@ -149,7 +149,7 @@ class VC:
                 rms_mix_rate,
                 self.version,
                 protect,
-                f0_file,
+                # f0_file,
             )
             if self.tgt_sr != resample_sr >= 16000:
                 self.tgt_sr = resample_sr
